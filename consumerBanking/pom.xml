@@ -14,5 +14,17 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    
   </dependencies>
+  <distributionManagement>
+	  	<repository>
+	  		<id>prod</id>
+	  		<url>http://ec2-54-255-219-252.ap-southeast-1.compute.amazonaws.com:8081/repository/maven-snapshots//</url>
+	  		<name>myprod</name>
+	
+	
+	  	</repository>
+	  	
+	
+	  </distributionManagement>
 </project>
